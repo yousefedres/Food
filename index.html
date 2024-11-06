@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Food Wagon</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/framework.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="p-relative">
+      <div class="container between-flex">
+        <div class="d-flex align-center logo">
+          <img class="w-40 h-40 mr-5" src="image/logo.jpg" alt="" />
+          <p class="fs-20 m-0 c-alt-color fw-bold">
+            <span class="c-main-color">FOOD </span> WAGON
+          </p>
+        </div>
+        <div class="mid-section">
+          <span class="fs-15"
+            ><span class="mr-10 fs-15 fw-600">Deliver To :</span
+            ><i class="fa-solid fa-location-dot c-main-color"></i> Current
+            Location <span class="fw-600">Berlin, Berg</span>
+          </span>
+        </div>
+        <div class="d-flex align-center right-section">
+          <i
+            class="fa-solid fa-magnifying-glass mr-10 c-main-color cursor-pointer"
+          ></i>
+          <span class="fw-600 fs-15 mr-15 search">Search Food</span>
+          <div class="c-main-color rad-7 fw-600 login">
+            <i class="fa-solid fa-user mr-5"></i>Login
+          </div>
+          <div class="menu-men cursor-pointer">
+            <i class="fa-solid fa-bars ml-15 fs-18 cursor-pointer bars"></i>
+            <div class="mega-menu p-absolute d-flex align-center">
+              <img src="image/mega-menu.jpg" alt="" />
+              <ul>
+                <li><a href="#working">How Dose It Work</a></li>
+                <li><a href="#popular">Popular Item</a></li>
+                <li><a href="#restaurants">Featured Restaurant</a></li>
+                <li><a href="#install">Install The App</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Start Lainding  -->
+    <div class="lainding bg-main-color">
+      <div class="container d-flex gap-20 p-relative">
+        <div class="content-lainding">
+          <img class="gray" src="image/landing-image-1.png" alt="" />
+          <div class="heading d-flex">
+            <h1>Are You Starving?</h1>
+            <p class="mt-0 fs-14 fw-normal">
+              Within a few clicks, find meals that are accessible near you
+            </p>
+          </div>
+          <div class="delivery bg-white p-15 rad-10 p-relative">
+            <div class="d-flex align-center pb-10 mb-10 box">
+              <div
+                class="mr-20 fw-600 rad-7 c-alt-color btn-shape cursor-pointer deliver"
+              >
+                <i class="fa-solid fa-motorcycle mr-5 fs-18"></i
+                ><span class="fs-18 fw-600">Delivery</span>
+              </div>
+              <div
+                class="d-flex align-center fw-600 btn-shape sub-title cursor-pointer pickup"
+              >
+                <i class="fa-solid fa-bag-shopping mr-5 fs-18"></i>
+                <span class="fs-18 fw-600">Pickup</span>
+              </div>
+            </div>
+            <div class="between-flex gap-40">
+              <div class="d-flex f-grow align-center bg-open-color rad-7 fin">
+                <i class="fa-solid fa-location-dot c-alt-color mr-5"></i>
+                <input type="text" />
+              </div>
+              <div
+                class="btn-shape bg-alt-color fw-600 rad-7 c-white fs-13 cursor-pointer find"
+              >
+                <i class="fa-solid fa-magnifying-glass mr-5"></i>
+                <span>Find</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Start Food Cards  -->
+      <div class="food-cards main-space">
+        <div class="container d-grid align-center gap-20">
+          <div class="card rad-10">
+            <div class="imag p-relative over-h">
+              <img class="rad-10" src="image/food-card-1.jpg" alt="" />
+              <div class="p-absolute discount">
+                <span>15</span>
+                <p class="m-0">
+                  <span>%</span>
+                  <span>off</span>
+                </p>
+              </div>
+            </div>
+            <h3 class="mt-15 fs-15 fw-600">All kinds of salads</h3>
+            <span
+              class="mt-10 mb-0 c-alt-color bg-f5c w-fit fs-12 fw-600 rad-7 day"
+              >6 Days Remaining
+            </span>
+          </div>
+          <div class="card rad-10">
+            <div class="imag p-relative over-h">
+              <img class="rad-10" src="image/food-card-2.jpg" alt="" />
+              <div class="p-absolute discount">
+                <span>10</span>
+                <p class="m-0">
+                  <span>%</span>
+                  <span>off</span>
+                </p>
+              </div>
+            </div>
+            <h3 class="mt-15 fs-15">All kinds of Soup</h3>
+            <span
+              class="mt-10 mb-0 c-alt-color bg-f5c w-fit fs-12 fw-600 rad-7 day"
+              >7 Days Remaining
+            </span>
+          </div>
+          <div class="card rad-10">
+            <div class="imag p-relative over-h">
+              <img class="rad-10" src="image/food-card-3.jpg" alt="" />
+              <div class="p-absolute discount">
+                <span>20</span>
+                <p class="m-0">
+                  <span>%</span>
+                  <span>off</span>
+                </p>
+              </div>
+            </div>
+            <h3 class="mt-15 fs-15">All Seafood</h3>
+            <span
+              class="mt-10 mb-0 c-alt-color bg-f5c w-fit fs-12 fw-600 rad-7 day"
+              >3 Days Remaining
+            </span>
+          </div>
+          <div class="card rad-10">
+            <div class="imag p-relative over-h">
+              <img class="rad-10" src="image/food-card-4.jpg" alt="" />
+              <div class="p-absolute discount">
+                <span>25</span>
+                <p class="m-0">
+                  <span>%</span>
+                  <span>off</span>
+                </p>
+              </div>
+            </div>
+            <h3 class="mt-15 fs-15">All Pasta</h3>
+            <span
+              class="mt-10 mb-0 c-alt-color bg-f5c w-fit fs-12 fw-600 rad-7 day"
+              >8 Days Remaining
+            </span>
+          </div>
+        </div>
+      </div>
+      <!-- End Food Cards  -->
+    </div>
+    <!-- End Lainding  -->
+    <!-- Start Working  -->
+    <div class="work main-space" id="working">
+      <h2 class="c-alt-color txt-c">How does It Work</h2>
+      <div class="container d-grid gap-20">
+        <div class="box center-flex">
+          <i class="fa-solid fa-location-dot c-main-color"></i>
+          <h3 class="mt-0 mb-10 fs-14 fw-600">Select Location</h3>
+          <p class="m-0 fs-13 sub-title line-h">
+            Choose The Location Where your food will be delivered
+          </p>
+        </div>
+        <div class="box center-flex">
+          <i class="fa-solid fa-basket-shopping c-main-color"></i>
+          <h3 class="mt-0 mb-10 fs-14 fw-600">choose order</h3>
+          <p class="m-0 fs-13 sub-title line-h">
+            check over hundreds of menus to pick your favorite food
+          </p>
+        </div>
+        <div class="box center-flex">
+          <i class="fa-regular fa-credit-card c-main-color"></i>
+          <h3 class="mt-0 mb-10 fs-14 fw-600">Pay advanced</h3>
+          <p class="m-0 fs-13 sub-title line-h">
+            it`s quick, safe and simple. select several methods of payment
+          </p>
+        </div>
+        <div class="box center-flex">
+          <i class="fa-solid fa-burger c-main-color"></i>
+          <h3 class="mt-0 mb-10 fs-14 fw-600">enjoy meals</h3>
+          <p class="m-0 fs-13 sub-title line-h">
+            food is made and delivered directly to your home.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- End Working  -->
+    <!-- Start Popular items -->
+    <div class="popular main-space" id="popular">
+      <h2 class="txt-upper fs-25 mb-50 txt-c c-alt-color">Popular items</h2>
+      <div class="container d-grid gap-20">
+        <div class="item">
+          <img class="rad-7" src="image/food-1.jpg" alt="" />
+          <div class="info">
+            <h3 class="mt-10 mb-10 fs-16 fw-bold">Pizza Margherita</h3>
+            <p class="mt-0 mb-10 fs-12 sub-title">
+              A classic Italian pizza with fresh tomatoes, mozzarella cheese,
+              and basil.
+            </p>
+            <span class="d-block fs-15 mb-15 fw-600">$10</span>
+          </div>
+          <button class="order fs-13 c-white bg-alt-color rad-7 fw-600">
+            Order New
+          </button>
+        </div>
+        <div class="item">
+          <img class="rad-7" src="image/food-2.jpg" alt="" />
+          <div class="info">
+            <h3 class="mt-10 mb-10 fs-16 fw-bold">Fried Chicken Burger</h3>
+            <p class="mt-0 mb-10 fs-12 sub-title">
+              A crispy fried chicken patty with lettuce, pickles, and mayo in a
+              soft bun.
+            </p>
+            <span class="d-block fs-15 mb-15 fw-600">$7</span>
+          </div>
+          <button class="order fs-13 c-white bg-alt-color rad-7 fw-600">
+            Order New
+          </button>
+        </div>
+        <div class="item">
+          <img class="rad-7" src="image/food-3.jpg" alt="" />
+          <div class="info">
+            <h3 class="mt-10 mb-10 fs-16 fw-bold">Fried Chicken</h3>
+            <p class="mt-0 mb-10 fs-12 sub-title">
+              Crispy and juicy fried chicken, seasoned with a blend of herbs and
+              spices.
+            </p>
+            <span class="d-block fs-15 mb-15 fw-600">$8</span>
+          </div>
+          <button class="order fs-13 c-white bg-alt-color rad-7 fw-600">
+            Order New
+          </button>
+        </div>
+        <div class="item">
+          <img class="rad-7" src="image/food-4.jpg" alt="" />
+          <div class="info">
+            <h3 class="mt-10 mb-10 fs-16 fw-bold">Kofta</h3>
+            <p class="mt-0 mb-10 fs-12 sub-title">
+              Grilled ground meat skewers, flavored with Middle Eastern spices,
+              served with sides.
+            </p>
+            <span class="d-block fs-15 mb-15 fw-600">$11</span>
+          </div>
+          <button class="order fs-13 c-white bg-alt-color rad-7 fw-600">
+            Order New
+          </button>
+        </div>
+        <div class="item">
+          <img class="rad-7" src="image/food-5.jpg" alt="" />
+          <div class="info">
+            <h3 class="mt-10 mb-10 fs-16 fw-bold">Fattoush Salad</h3>
+            <p class="mt-0 mb-10 fs-12 sub-title">
+              A refreshing Middle Eastern salad with crispy pita, fresh
+              vegetables, and a tangy dressing.
+            </p>
+            <span class="d-block fs-15 mb-15 fw-600">$5</span>
+          </div>
+          <button class="order fs-13 c-white bg-alt-color rad-7 fw-600">
+            Order New
+          </button>
+        </div>
+        <div class="item">
+          <img class="rad-7" src="image/food-6.jpg" alt="" />
+          <div class="info">
+            <h3 class="mt-10 mb-10 fs-16 fw-bold">smash Beef Burger</h3>
+            <p class="mt-0 mb-10 fs-12 sub-title">
+              Juicy smashed beef patty with melted cheese, onions, and special
+              sauce on a toasted bun.
+            </p>
+            <span class="d-block fs-15 mb-15 fw-600">$8</span>
+          </div>
+          <button class="order fs-13 c-white bg-alt-color rad-7 fw-600">
+            Order New
+          </button>
+        </div>
+        <div class="item">
+          <img class="rad-7" src="image/food-7.jpg" alt="" />
+          <div class="info">
+            <h3 class="mt-10 mb-10 fs-16 fw-bold">Fried Chicken Sandwich</h3>
+            <p class="mt-0 mb-10 fs-12 sub-title">
+              Crispy fried chicken breast in a sandwich with lettuce, tomato,
+              and mayo.
+            </p>
+            <span class="d-block fs-15 mb-15 fw-600">$8</span>
+          </div>
+          <button class="order fs-13 c-white bg-alt-color rad-7 fw-600">
+            Order New
+          </button>
+        </div>
+        <div class="item">
+          <img class="rad-7" src="image/food-8.jpg" alt="" />
+          <div class="info">
+            <h3 class="mt-10 mb-10 fs-16 fw-bold">Pizza Chicken Ranch</h3>
+            <p class="mt-0 mb-10 fs-12 sub-title">
+              Grilled chicken pizza with creamy ranch sauce, topped with cheese
+              and fresh vegetables.
+            </p>
+            <span class="d-block fs-15 mb-15 fw-600">$12</span>
+          </div>
+          <button class="order fs-13 c-white bg-alt-color rad-7 fw-600">
+            Order New
+          </button>
+        </div>
+        <div class="item">
+          <img class="rad-7" src="image/food-9.jpg" alt="" />
+          <div class="info">
+            <h3 class="mt-10 mb-10 fs-16 fw-bold">Pasta with Seafood</h3>
+            <p class="mt-0 mb-10 fs-12 sub-title">
+              Fresh pasta served with a mix of seafood like shrimp, calamari,
+              and mussels in a rich sauce.
+            </p>
+            <span class="d-block fs-15 mb-15 fw-600">$15</span>
+          </div>
+          <button class="order fs-13 c-white bg-alt-color rad-7 fw-600">
+            Order New
+          </button>
+        </div>
+        <div class="item">
+          <img class="rad-7" src="image/food-10.jpg" alt="" />
+          <div class="info">
+            <h3 class="mt-10 mb-10 fs-16 fw-bold">Cream Soup</h3>
+            <p class="mt-0 mb-10 fs-12 sub-title">
+              A creamy, rich soup made from fresh ingredients, perfect for a
+              light meal.
+            </p>
+            <span class="d-block fs-15 mb-15 fw-600">$6</span>
+          </div>
+          <button class="order fs-13 c-white bg-alt-color rad-7 fw-600">
+            Order New
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- End Popular items  -->
+    <!-- Start Featured Restaurants  -->
+    <div class="restaurants main-space" id="restaurants">
+      <h2 class="txt-upper fs-25 mb-50 txt-c c-alt-color">
+        Featured Restaurants
+      </h2>
+      <div class="container d-grid gap-20">
+        <div class="rest d-flex p-relative">
+          <div class="imag w-fit">
+            <img class="rad-7" src="image/restaurant-1.jpg" alt="" />
+            <div
+              class="off p-absolute bg-main-color c-white fs-13 d-flex align-center fw-600 rad-5"
+            >
+              <i class="fa-solid fa-tag mr-10 ml-5"></i>
+              <p>20 <span>%</span> Off</p>
+            </div>
+            <div
+              class="fast bg-alt-color c-white p-absolute c-white fs-13 d-flex align-center fw-600 rad-5"
+            >
+              <i class="fa-regular fa-clock mr-10 ml-5"></i>
+              <span>Fast</span>
+            </div>
+          </div>
+          <div class="info d-flex align-center mt-10 mb-10">
+            <img class="mr-10 w-40" src="image/restaurant-logo.png" alt="" />
+            <div>
+              <span class="d-block fs-14 fw-600 mb-5">donut corner </span>
+              <div class="star d-flex c-main-color fs-15">
+                <i class="fa-solid fa-star mr-5"></i>
+                <span>50</span>
+              </div>
+            </div>
+          </div>
+          <span class="btn-shape d-block w-fit fs-15 fw-600 rad-5 mt-10 open"
+            >Open Now</span
+          >
+        </div>
+        <div class="rest d-flex p-relative">
+          <div class="imag w-fit">
+            <img class="rad-7" src="image/restaurant-2.jpg" alt="" />
+            <div
+              class="off p-absolute bg-main-color c-white fs-13 d-flex align-center fw-600 rad-5"
+            >
+              <i class="fa-solid fa-tag mr-10 ml-5"></i>
+              <p>24 <span>%</span> Off</p>
+            </div>
+            <div
+              class="fast bg-alt-color c-white p-absolute c-white fs-13 d-flex align-center fw-600 rad-5"
+            >
+              <i class="fa-regular fa-clock mr-10 ml-5"></i>
+              <span>Fast</span>
+            </div>
+          </div>
+          <div class="info d-flex align-center mt-10 mb-10">
+            <img class="mr-10 w-40" src="image/restaurant-logo.png" alt="" />
+            <div>
+              <span class="d-block fs-14 fw-600 mb-5">pancake corner </span>
+              <div class="star d-flex c-main-color fs-15">
+                <i class="fa-solid fa-star mr-5"></i>
+                <span>35</span>
+              </div>
+            </div>
+          </div>
+          <span class="btn-shape d-block w-fit fs-15 fw-600 rad-5 mt-10 open"
+            >Open Now</span
+          >
+        </div>
+        <div class="rest d-flex p-relative">
+          <div class="imag w-fit">
+            <img class="rad-7" src="image/restaurant-3.jpg" alt="" />
+            <div
+              class="off p-absolute bg-main-color c-white fs-13 d-flex align-center fw-600 rad-5"
+            >
+              <i class="fa-solid fa-tag mr-10 ml-5"></i>
+              <p>18 <span>%</span> Off</p>
+            </div>
+            <div
+              class="fast bg-alt-color c-white p-absolute c-white fs-13 d-flex align-center fw-600 rad-5"
+            >
+              <i class="fa-regular fa-clock mr-10 ml-5"></i>
+              <span>Fast</span>
+            </div>
+          </div>
+          <div class="info d-flex align-center mt-10 mb-10">
+            <img class="mr-10 w-40" src="image/restaurant-logo.png" alt="" />
+            <div>
+              <span class="d-block fs-14 fw-600 mb-5">soup corner </span>
+              <div class="star d-flex c-main-color fs-15">
+                <i class="fa-solid fa-star mr-5"></i>
+                <span>25</span>
+              </div>
+            </div>
+          </div>
+          <span
+            class="btn-shape d-block w-fit fs-15 fw-600 rad-5 mt-10 open-tomorrow"
+            >Opens Tomorrow
+          </span>
+        </div>
+        <div class="rest d-flex p-relative">
+          <div class="imag w-fit">
+            <img class="rad-7" src="image/restaurant-4.jpg" alt="" />
+            <div
+              class="off p-absolute bg-main-color c-white fs-13 d-flex align-center fw-600 rad-5"
+            >
+              <i class="fa-solid fa-tag mr-10 ml-5"></i>
+              <p>10 <span>%</span> Off</p>
+            </div>
+            <div
+              class="fast bg-alt-color c-white p-absolute c-white fs-13 d-flex align-center fw-600 rad-5"
+            >
+              <i class="fa-regular fa-clock mr-10 ml-5"></i>
+              <span>Fast</span>
+            </div>
+          </div>
+          <div class="info d-flex align-center mt-10 mb-10">
+            <img class="mr-10 w-40" src="image/restaurant-logo.png" alt="" />
+            <div>
+              <span class="d-block fs-14 fw-600 mb-5">juice corner </span>
+              <div class="star d-flex c-main-color fs-15">
+                <i class="fa-solid fa-star mr-5"></i>
+                <span>27</span>
+              </div>
+            </div>
+          </div>
+          <span
+            class="btn-shape d-block w-fit fs-15 fw-600 rad-5 mt-10 open-tomorrow"
+            >Open Tomorrow</span
+          >
+        </div>
+        <div class="rest d-flex p-relative">
+          <div class="imag w-fit">
+            <img class="rad-7" src="image/restaurant-5.jpg" alt="" />
+            <div
+              class="off p-absolute bg-main-color c-white fs-13 d-flex align-center fw-600 rad-5"
+            >
+              <i class="fa-solid fa-tag mr-10 ml-5"></i>
+              <p>18 <span>%</span> Off</p>
+            </div>
+            <div
+              class="fast bg-alt-color c-white p-absolute c-white fs-13 d-flex align-center fw-600 rad-5"
+            >
+              <i class="fa-regular fa-clock mr-10 ml-5"></i>
+              <span>Fast</span>
+            </div>
+          </div>
+          <div class="info d-flex align-center mt-10 mb-10">
+            <img class="mr-10 w-40" src="image/restaurant-logo.png" alt="" />
+            <div>
+              <span class="d-block fs-14 fw-600 mb-5">steak corner </span>
+              <div class="star d-flex c-main-color fs-15">
+                <i class="fa-solid fa-star mr-5"></i>
+                <span>45</span>
+              </div>
+            </div>
+          </div>
+          <span class="btn-shape d-block w-fit fs-15 fw-600 rad-5 mt-10 open"
+            >Open Now</span
+          >
+        </div>
+        <div class="rest d-flex p-relative">
+          <div class="imag w-fit">
+            <img class="rad-7" src="image/restaurant-6.jpg" alt="" />
+            <div
+              class="off p-absolute bg-main-color c-white fs-13 d-flex align-center fw-600 rad-5"
+            >
+              <i class="fa-solid fa-tag mr-10 ml-5"></i>
+              <p>32 <span>%</span> Off</p>
+            </div>
+            <div
+              class="fast bg-alt-color c-white p-absolute c-white fs-13 d-flex align-center fw-600 rad-5"
+            >
+              <i class="fa-regular fa-clock mr-10 ml-5"></i>
+              <span>Fast</span>
+            </div>
+          </div>
+          <div class="info d-flex align-center mt-10 mb-10">
+            <img class="mr-10 w-40" src="image/restaurant-logo.png" alt="" />
+            <div>
+              <span class="d-block fs-14 fw-600 mb-5">breakfast corner </span>
+              <div class="star d-flex c-main-color fs-15">
+                <i class="fa-solid fa-star mr-5"></i>
+                <span>50</span>
+              </div>
+            </div>
+          </div>
+          <span class="btn-shape d-block w-fit fs-15 fw-600 rad-5 mt-10 open"
+            >Open Now</span
+          >
+        </div>
+        <div class="rest d-flex p-relative">
+          <div class="imag w-fit">
+            <img class="rad-7" src="image/restaurant-7.jpg" alt="" />
+            <div
+              class="off p-absolute bg-main-color c-white fs-13 d-flex align-center fw-600 rad-5"
+            >
+              <i class="fa-solid fa-tag mr-10 ml-5"></i>
+              <p>14 <span>%</span> Off</p>
+            </div>
+            <div
+              class="fast bg-alt-color c-white p-absolute c-white fs-13 d-flex align-center fw-600 rad-5"
+            >
+              <i class="fa-regular fa-clock mr-10 ml-5"></i>
+              <span>Fast</span>
+            </div>
+          </div>
+          <div class="info d-flex align-center mt-10 mb-10">
+            <img class="mr-10 w-40" src="image/restaurant-logo.png" alt="" />
+            <div>
+              <span class="d-block fs-14 fw-600 mb-5">icecream corner </span>
+              <div class="star d-flex c-main-color fs-15">
+                <i class="fa-solid fa-star mr-5"></i>
+                <span>46</span>
+              </div>
+            </div>
+          </div>
+          <span
+            class="btn-shape d-block w-fit fs-15 fw-600 rad-5 mt-10 open-tomorrow"
+            >Open Tomorrow</span
+          >
+        </div>
+        <div class="rest d-flex p-relative">
+          <div class="imag w-fit">
+            <img class="rad-7" src="image/restaurant-8.jpg" alt="" />
+            <div
+              class="off p-absolute bg-main-color c-white fs-13 d-flex align-center fw-600 rad-5"
+            >
+              <i class="fa-solid fa-tag mr-10 ml-5"></i>
+              <p>24 <span>%</span> Off</p>
+            </div>
+            <div
+              class="fast bg-alt-color c-white p-absolute c-white fs-13 d-flex align-center fw-600 rad-5"
+            >
+              <i class="fa-regular fa-clock mr-10 ml-5"></i>
+              <span>Fast</span>
+            </div>
+          </div>
+          <div class="info d-flex align-center mt-10 mb-10">
+            <img class="mr-10 w-40" src="image/restaurant-logo.png" alt="" />
+            <div>
+              <span class="d-block fs-14 fw-600 mb-5">sushi corner </span>
+              <div class="star d-flex c-main-color fs-15">
+                <i class="fa-solid fa-star mr-5"></i>
+                <span>98</span>
+              </div>
+            </div>
+          </div>
+          <span class="btn-shape d-block w-fit fs-15 fw-600 rad-5 mt-10 open"
+            >Open Now</span
+          >
+        </div>
+      </div>
+    </div>
+    <!-- End Featured Restaurants  -->
+    <!-- Start Search Food  -->
+    <div class="search-food main-space">
+      <div class="container between-flex mb-30 head">
+        <h2 class="txt-upper fs-25">Search By Food</h2>
+        <a class="d-block c-alt-color fs-15" href="#"
+          >View All <i class="fa-solid fa-angles-right ml-5"></i
+        ></a>
+      </div>
+      <div class="container d-grid align-center gap-10">
+        <div class="food d-flex align-center mb-30">
+          <img class="rad-half mb-15" src="image/search-1.jpg" alt="" />
+          <span class="fs-18">Fish</span>
+        </div>
+        <div class="food d-flex align-center mb-30">
+          <img class="rad-half mb-15" src="image/search-2.jpg" alt="" />
+          <span class="fs-18">steak </span>
+        </div>
+        <div class="food d-flex align-center mb-30">
+          <img class="rad-half mb-15" src="image/search-3.jpg" alt="" />
+          <span class="fs-18">Pizza</span>
+        </div>
+        <div class="food d-flex align-center mb-30">
+          <img class="rad-half mb-15" src="image/search-4.jpg" alt="" />
+          <span class="fs-18">Burger</span>
+        </div>
+        <div class="food d-flex align-center mb-30">
+          <img class="rad-half mb-15" src="image/search-5.jpg" alt="" />
+          <span class="fs-18">Pasta</span>
+        </div>
+        <div class="food d-flex align-center mb-30">
+          <img class="rad-half mb-15" src="image/search-6.jpg" alt="" />
+          <span class="fs-18">sub Sandwich </span>
+        </div>
+      </div>
+    </div>
+    <!-- End Search Food  -->
+    <!-- Start Install-App -->
+    <div class="install main-space" id="install">
+      <div class="container">
+        <div
+          class="heading d-flex align-center gap-20 w-fit p-10 bg-white rad-10 m-auto"
+        >
+          <div class="d-flex align-center">
+            <img class="mr-15" src="image/window-1.jpg" alt="" />
+            <span class="fw-600 fs-20 c-alt-color"
+              >Daily <span class="d-block">Discounts</span>
+            </span>
+          </div>
+          <div class="d-flex align-center">
+            <img class="mr-15" src="image/window-2.jpg" alt="" />
+            <span class="fw-600 fs-20 c-alt-color"
+              >Live <span class="d-block">Tracing</span>
+            </span>
+          </div>
+          <div class="d-flex align-center">
+            <img class="mr-15" src="image/window-3.jpg" alt="" />
+            <span class="fw-600 fs-20 c-alt-color"
+              >Quick <span class="d-block">Delivery</span>
+            </span>
+          </div>
+        </div>
+        <div class="app d-grid align-center">
+          <img src="image/app-removebg-preview (1).png" alt="" />
+          <div class="info">
+            <h3>Install The App</h3>
+            <p class="sub-title fs-15 mt-10 mb-20 fw-normal">
+              It's never been easier to order food. Look for the finest
+              discounts and you'll be lost in a world of delectable food.
+            </p>
+            <div class="pay d-flex align-center gap-20">
+              <div class="d-flex align-center bg-white rad-7 p-10">
+                <i class="fa-brands fa-google-play c-alt-color"></i>
+                <p>
+                  <span class="txt-upper d-block fs-10 mb-5 fw-normal"
+                    >get it on</span
+                  >Google Play
+                </p>
+              </div>
+              <div class="d-flex align-center bg-white rad-7 p-10">
+                <i class="fa-brands fa-apple c-alt-color"></i>
+                <p>
+                  <span class="txt-upper d-block fs-10 mb-5 fw-normal"
+                    >download on the</span
+                  >Apple Store
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Install-App -->
+    <!-- Start Covers  -->
+    <div class="covers main-space">
+      <div class="container">
+        <div class="cover d-flex align-center">
+          <div class="info d-flex">
+            <h3 class="fs-20 fw-600 mb-15">
+              Best deals <span class="c-alt-color"> Crispy Sandwiches</span>
+            </h3>
+            <p class="mb-30 fs-15 sub-title">
+              Enjoy the large size of sandwiches. Complete perfect slice of
+              sandwiches.
+            </p>
+            <button class="bg-alt-color rad-7 fw-600 fs-13 c-white">
+              Proceed To Order
+            </button>
+          </div>
+          <img src="image/cover-1.jpg" alt="" />
+        </div>
+        <div class="cover d-flex align-center">
+          <img src="image/cover-2.jpg" alt="" />
+          <div class="info d-flex">
+            <h3 class="fs-20 fw-600 mb-15">
+              Celebrate parties with
+              <span class="c-alt-color"> Fried Chicken</span>
+            </h3>
+            <p class="mb-30 fs-15 sub-title">
+              Get the best fried chicken smeared with a lip smacking lemon chili
+              flavor. Check out best deals for fried chicken.
+            </p>
+            <button class="bg-alt-color rad-7 fw-600 fs-13 c-white">
+              Proceed To Order
+            </button>
+          </div>
+        </div>
+        <div class="cover d-flex align-center">
+          <div class="info d-flex">
+            <h3 class="fs-20 fw-600 mb-15">
+              Wanna eat hot & spicy
+              <span class="c-alt-color"> Pizza?</span>
+            </h3>
+            <p class="fs-15 sub-title">
+              Pair up with a friend and enjoy the hot and crispy pizza pops. Try
+              it with the best deals.
+            </p>
+            <button class="bg-alt-color rad-7 fw-600 fs-13 c-white">
+              Proceed To Order
+            </button>
+          </div>
+          <img src="image/cover-3.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- End Covers  -->
+    <!-- Start Footer  -->
+    <div class="footer main-space c-white" id="contact">
+      <div class="container txt-c m-auto">
+        <h3>
+          &copy; 2024
+          <span class="c-alt-color m-0 fw-bold">Food Wegon</span> All Right
+          Reserved
+        </h3>
+        <p class="fs-16 mt-10 mb-10 txt-upper fw-normal">
+          Find Us On Social Networks
+        </p>
+        <div class="social d-flex align-center gap-10 mb-10 w-fit m-auto">
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+        <div class="subs d-flex align-center">
+          <input type="email" placeholder="Email" />
+          <button>Subscribe</button>
+        </div>
+        <p>
+          This design is for training only and does not represent this brand at
+          all.
+        </p>
+        <div class="love">
+          Made With Love
+          <i class="fa-solid fa-heart mr-5 ml-5 c-main-color"></i> By
+          <span class="cursor-pointer">Yousef Edries</span>
+          2024
+        </div>
+      </div>
+    </div>
+    <!-- End Footer  -->
+  </body>
+</html>
